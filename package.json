@@ -1,0 +1,25 @@
+{
+  "name": "discordjs-v14-bot-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "dev": "nodemon ./src/index.ts --development",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "glob": "^11.0.0",
+    "mongoose": "^8.7.2",
+    "nodemon": "^3.1.7"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
